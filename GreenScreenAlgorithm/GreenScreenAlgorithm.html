@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>GreenScreenAlgorithm</title>
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<script src="GreenScreenAlgorithm.js"></script>
+<link rel="stylesheet" href="GreenScreenAlgorithm.css">
+</head>
+<body>
+<canvas id="fgImage">
+</canvas>
+
+<canvas id = "bgImage"></canvas>
+<br/>
+<br/>
+<input type="file" id="fgInput" onChange="uploadForegroundImage()"  accept="image/*" value="Choose Foreground Image"/>
+<input type="file" id="bgInput" onChange="uploadBackgroundImage()"  accept="image/*" value="Choose Background Image"/>
+
+<input type="button" id="createComposite" onClick="createComposite()" value="CreateComposite"/>
+
+<input type="button" id="clearCanvases" onClick="clearCanvas()" value="ClearCanvases"/>
+
+</body>
+</html>

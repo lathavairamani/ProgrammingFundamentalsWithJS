@@ -1,0 +1,6 @@
+@CHARSET "ISO-8859-1";
+canvas{
+	height:100px;
+	width:100px;
+	border:1px solid;
+}
